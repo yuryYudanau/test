@@ -6,25 +6,9 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-<div id="app">
-    {{ message }}
-    {{x}}
-</div>
-
 <div id="app-3">
     <span v-if="seen">Now you see me</span>
 </div>
-
-<script>
-    var app = new Vue({
-        el: '#app',
-        data: {
-            message: 'Hello Vue!',
-            x: 3232
-        }
-    })
-    app.message = "HitHub Forever!!!!"
-</script>
 
 <script>
     var app3 = new Vue({
